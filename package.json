@@ -1,0 +1,17 @@
+{
+  "name": "random_walk",
+  "version": "1.0.0",
+  "description": "Random walk test",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/test"
+  },
+  "author": "Jesus Edel Cereceres",
+  "license": "MIT",
+  "dependencies": {
+    "canvas": "^1.2.9",
+    "distributions": "^0.2.1",
+    "randgen": "^0.1.0",
+    "shelljs": "^0.5.3"
+  }
+}
