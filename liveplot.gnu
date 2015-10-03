@@ -1,4 +1,6 @@
-#!usr/bin/gnuplot
+
+set xrange [0:10]
+set yrange [0,10]
 plot "walk_data.dat" using 1:2 with lines
-pause 1
+pause 0.1
 reread
